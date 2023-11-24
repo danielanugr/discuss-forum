@@ -22,11 +22,13 @@ export default function TopicCreateForm() {
               label='Name'
               labelPlacement='outside'
               placeholder='Topic Name'
+              name='name'
             />
             <Textarea
               label='Description'
               labelPlacement='outside'
               placeholder='Describe your topic'
+              name='description'
             />
             <Button type='submit'>Submit</Button>
           </div>
